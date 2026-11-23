@@ -11,7 +11,7 @@ Choose **Settings > Plugins > Plugin Marketplace** and install **Wormhole**.
 Restart the service after installation. To install from the CLI:
 
 ```sh
-unic plugin install https://github.com/UniClipboard/unic-plugin-wormhole --ref v0.1.0 --enable
+unic plugin install https://github.com/UniClipboard/unic-plugin-wormhole --ref v0.1.1 --enable
 unic history action @1 unic.wormhole/share
 ```
 

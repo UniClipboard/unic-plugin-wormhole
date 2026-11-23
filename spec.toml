@@ -1,6 +1,7 @@
 manifest_version = 1
 id = "unic.wormhole"
-version = "0.1.0"
+version = "0.1.1"
+icon = "lock"
 api_version = 1
 kind = "go"
 module = "github.com/UniClipboard/unic-plugin-wormhole"
@@ -24,47 +25,47 @@ timeout_ms = 300000
 [[artifacts]]
 goos = "darwin"
 goarch = "amd64"
-release = "v0.1.0"
+release = "v0.1.1"
 asset = "unic-plugin-wormhole_darwin_amd64.tar.gz"
 executable = "unic-plugin-wormhole"
-sha256 = "f79e6be8d9e8ca24e48be1bb206cb59ce40ec016a18463bbf31651dd7962b338"
+sha256 = "5d6b6128080cab3a6abbfeec62f8b51ec8d5c367c0a0bc634094649d32a4ed2d"
 
 [[artifacts]]
 goos = "darwin"
 goarch = "arm64"
-release = "v0.1.0"
+release = "v0.1.1"
 asset = "unic-plugin-wormhole_darwin_arm64.tar.gz"
 executable = "unic-plugin-wormhole"
-sha256 = "5bfeb20b5f54324137849c9bda8302367d3e87a4ad6567c0b602a8e0abca8fc3"
+sha256 = "de962739a494cdecce10e48a673ef00a67b2f10b2991d1e130e949fc63f15a3d"
 
 [[artifacts]]
 goos = "linux"
 goarch = "amd64"
-release = "v0.1.0"
+release = "v0.1.1"
 asset = "unic-plugin-wormhole_linux_amd64.tar.gz"
 executable = "unic-plugin-wormhole"
-sha256 = "b1ddf670c48590202340d5fb3df265ed5b9b6855f8b7f610854afecb733317f1"
+sha256 = "8a12024128f09073db5fbaff8c33cf11cf3df0a0ca821ac424904c71ac12934c"
 
 [[artifacts]]
 goos = "linux"
 goarch = "arm64"
-release = "v0.1.0"
+release = "v0.1.1"
 asset = "unic-plugin-wormhole_linux_arm64.tar.gz"
 executable = "unic-plugin-wormhole"
-sha256 = "8ef81af56dcf9c7ade0d3262c96b58a8d0c978f6e1f598209cd6b94fcf82fee1"
+sha256 = "2cca73beaae857e4821dfe7ad94a08008f1d962a25139a9152a19f3bc524340e"
 
 [[artifacts]]
 goos = "windows"
 goarch = "amd64"
-release = "v0.1.0"
+release = "v0.1.1"
 asset = "unic-plugin-wormhole_windows_amd64.tar.gz"
 executable = "unic-plugin-wormhole.exe"
-sha256 = "b8baa79f6812fe8ef675888af06f2ce70a0dfe27133227892eebee753fb36ee2"
+sha256 = "a2f3efa915491dbde53c859cbcc67d6bb2c19224d10d5397754d2dabbd877815"
 
 [[artifacts]]
 goos = "windows"
 goarch = "arm64"
-release = "v0.1.0"
+release = "v0.1.1"
 asset = "unic-plugin-wormhole_windows_arm64.tar.gz"
 executable = "unic-plugin-wormhole.exe"
-sha256 = "ca5ce605fac01ce092018b28e35678edd82f0f2e53f512cee573334dbd43a437"
+sha256 = "3353f3df1a574a235b502eebeeddc47cd297e9a65e125d5470a21a6979dce511"
