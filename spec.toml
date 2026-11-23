@@ -1,0 +1,70 @@
+manifest_version = 1
+id = "unic.wormhole"
+version = "0.1.0"
+api_version = 1
+kind = "go"
+module = "github.com/UniClipboard/unic-plugin-wormhole"
+package = "./cmd/unic-plugin-wormhole"
+capabilities = ["action"]
+name = "Wormhole Temporary Share"
+summary = "Create an encrypted temporary download link."
+
+[i18n.zh-CN]
+name = "Wormhole 临时分享"
+summary = "生成端到端加密的临时下载链接。"
+
+[[actions]]
+id = "share"
+title = "通过 Wormhole 临时分享"
+accepts = ["text", "image", "files"]
+placements = ["history.item_menu", "history.toolbar", "quick_panel"]
+post_actions = ["copy", "present"]
+timeout_ms = 300000
+
+[[artifacts]]
+goos = "darwin"
+goarch = "amd64"
+release = "v0.1.0"
+asset = "unic-plugin-wormhole_darwin_amd64.tar.gz"
+executable = "unic-plugin-wormhole"
+sha256 = "f79e6be8d9e8ca24e48be1bb206cb59ce40ec016a18463bbf31651dd7962b338"
+
+[[artifacts]]
+goos = "darwin"
+goarch = "arm64"
+release = "v0.1.0"
+asset = "unic-plugin-wormhole_darwin_arm64.tar.gz"
+executable = "unic-plugin-wormhole"
+sha256 = "5bfeb20b5f54324137849c9bda8302367d3e87a4ad6567c0b602a8e0abca8fc3"
+
+[[artifacts]]
+goos = "linux"
+goarch = "amd64"
+release = "v0.1.0"
+asset = "unic-plugin-wormhole_linux_amd64.tar.gz"
+executable = "unic-plugin-wormhole"
+sha256 = "b1ddf670c48590202340d5fb3df265ed5b9b6855f8b7f610854afecb733317f1"
+
+[[artifacts]]
+goos = "linux"
+goarch = "arm64"
+release = "v0.1.0"
+asset = "unic-plugin-wormhole_linux_arm64.tar.gz"
+executable = "unic-plugin-wormhole"
+sha256 = "8ef81af56dcf9c7ade0d3262c96b58a8d0c978f6e1f598209cd6b94fcf82fee1"
+
+[[artifacts]]
+goos = "windows"
+goarch = "amd64"
+release = "v0.1.0"
+asset = "unic-plugin-wormhole_windows_amd64.tar.gz"
+executable = "unic-plugin-wormhole.exe"
+sha256 = "b8baa79f6812fe8ef675888af06f2ce70a0dfe27133227892eebee753fb36ee2"
+
+[[artifacts]]
+goos = "windows"
+goarch = "arm64"
+release = "v0.1.0"
+asset = "unic-plugin-wormhole_windows_arm64.tar.gz"
+executable = "unic-plugin-wormhole.exe"
+sha256 = "ca5ce605fac01ce092018b28e35678edd82f0f2e53f512cee573334dbd43a437"

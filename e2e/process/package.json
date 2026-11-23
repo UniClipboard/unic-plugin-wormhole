@@ -1,0 +1,8 @@
+{
+  "name": "unic-wormhole-live-verification",
+  "private": true,
+  "dependencies": {
+    "@ziuchen/wormhole-client": "0.0.0-b081b13",
+    "wormhole-crypto": "0.3.1"
+  }
+}
